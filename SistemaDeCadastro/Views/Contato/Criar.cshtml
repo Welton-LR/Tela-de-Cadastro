@@ -1,4 +1,8 @@
 ﻿
+<style>
+    .btn-block { display: block;width: 100%;}
+</style>
+
 <div class="text-center">
     <h1 class="display-4">Cadastrar Contato</h1>
 </div>
@@ -21,7 +25,8 @@
         <input type="text" class="form-control" placeholder="Digite Seu Número de Contato">
     </div>
     <br/>
-    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <button type="submit" class="btn btn-primary btn-block">Adicionar</button> <br/>
+    <a class="btn btn-dark btn-block" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
    
 </form>
 
